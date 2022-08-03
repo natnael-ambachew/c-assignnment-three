@@ -18,11 +18,21 @@ namespace assgmt3
             product c = new product { name =txt_name.Text, Id =int.Parse(txt_id.Text), coast = int.Parse(txt_coast.Text), price = int.Parse(txt_price.Text), number = int.Parse(txtt_number.Text),date=d1.Text};
             MessageBox.Show("the product  " + txt_name.Text + "  is successfuly saved");
             c.save();
+            if (string.IsNullOrEmpty(txt_id.Text))
+            {
+                errorProvider1.SetError(txt_id, "id is required");
+            }
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
             this.Close();
+            errorProvider1.Clear();
+        }
+
+        private void txt_name_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
