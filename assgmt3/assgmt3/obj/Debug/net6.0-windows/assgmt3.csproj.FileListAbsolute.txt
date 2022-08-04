@@ -32,3 +32,4 @@ C:\Users\hp\Desktop\s\c#\c-assignnment-three\assgmt3\assgmt3\obj\Debug\net6.0-wi
 C:\Users\hp\Desktop\s\c#\c-assignnment-three\assgmt3\assgmt3\obj\Debug\net6.0-windows\assgmt3.pdb
 C:\Users\hp\Desktop\s\c#\c-assignnment-three\assgmt3\assgmt3\obj\Debug\net6.0-windows\assgmt3.genruntimeconfig.cache
 C:\Users\hp\Desktop\s\c#\c-assignnment-three\assgmt3\assgmt3\obj\Debug\net6.0-windows\ref\assgmt3.dll
+C:\Users\hp\Desktop\s\c#\c-assignnment-three\assgmt3\assgmt3\obj\Debug\net6.0-windows\assgmt3.Form2.resources

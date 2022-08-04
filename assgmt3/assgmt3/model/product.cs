@@ -14,6 +14,7 @@ namespace assgmt3.model
         public int price { get; set; }
         public string date { get; set; }
         public string name { get; set; }
+        public Boolean is_available { get; set; }
         static List<product> products = new List<product>();
         public void save()
         {

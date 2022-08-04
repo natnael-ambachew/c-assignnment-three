@@ -44,6 +44,8 @@
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.chkav = new System.Windows.Forms.CheckBox();
+            this.lbladmin = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,7 +87,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label3.Location = new System.Drawing.Point(677, 30);
+            this.label3.Location = new System.Drawing.Point(318, 155);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 27);
             this.label3.TabIndex = 4;
@@ -93,16 +95,17 @@
             // 
             // txt_id
             // 
-            this.txt_id.Location = new System.Drawing.Point(638, 60);
+            this.txt_id.Location = new System.Drawing.Point(280, 185);
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(150, 31);
             this.txt_id.TabIndex = 5;
+            this.txt_id.TextChanged += new System.EventHandler(this.txt_id_TextChanged);
             // 
             // txt_name
             // 
-            this.txt_name.Location = new System.Drawing.Point(38, 185);
+            this.txt_name.Location = new System.Drawing.Point(12, 185);
             this.txt_name.Name = "txt_name";
-            this.txt_name.Size = new System.Drawing.Size(750, 31);
+            this.txt_name.Size = new System.Drawing.Size(186, 31);
             this.txt_name.TabIndex = 6;
             this.txt_name.TextChanged += new System.EventHandler(this.txt_name_TextChanged);
             // 
@@ -174,11 +177,33 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // chkav
+            // 
+            this.chkav.AutoSize = true;
+            this.chkav.Location = new System.Drawing.Point(581, 264);
+            this.chkav.Name = "chkav";
+            this.chkav.Size = new System.Drawing.Size(123, 29);
+            this.chkav.TabIndex = 14;
+            this.chkav.Text = "is available";
+            this.chkav.UseVisualStyleBackColor = true;
+            this.chkav.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // lbladmin
+            // 
+            this.lbladmin.AutoSize = true;
+            this.lbladmin.Location = new System.Drawing.Point(668, 9);
+            this.lbladmin.Name = "lbladmin";
+            this.lbladmin.Size = new System.Drawing.Size(59, 25);
+            this.lbladmin.TabIndex = 15;
+            this.lbladmin.Text = "label7";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbladmin);
+            this.Controls.Add(this.chkav);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.label6);
@@ -219,5 +244,8 @@
         private Button btn1;
         private Button btn2;
         private ErrorProvider errorProvider1;
+        private DataGridView dd;
+        private CheckBox chkav;
+        private Label lbladmin;
     }
 }
