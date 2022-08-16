@@ -39,6 +39,7 @@ namespace assgmt3
                 MessageBox.Show("the product  " + txt_name.Text + "  is successfuly saved");
                 c.save();
                 dd.DataSource = product.GetProducts();
+
             }
 
 

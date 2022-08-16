@@ -46,7 +46,9 @@
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.chkav = new System.Windows.Forms.CheckBox();
             this.lbladmin = new System.Windows.Forms.Label();
+            this.dd = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dd)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -197,11 +199,22 @@
             this.lbladmin.TabIndex = 15;
             this.lbladmin.Text = "label7";
             // 
+            // dd
+            // 
+            this.dd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dd.Location = new System.Drawing.Point(-6, 386);
+            this.dd.Name = "dd";
+            this.dd.RowHeadersWidth = 62;
+            this.dd.RowTemplate.Height = 33;
+            this.dd.Size = new System.Drawing.Size(805, 123);
+            this.dd.TabIndex = 16;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(796, 509);
+            this.Controls.Add(this.dd);
             this.Controls.Add(this.lbladmin);
             this.Controls.Add(this.chkav);
             this.Controls.Add(this.btn2);
@@ -222,6 +235,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dd)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
