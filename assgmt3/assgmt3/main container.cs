@@ -33,7 +33,25 @@ namespace assgmt3
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            form9 form = new form9();
+            form.Show();
+            
+        }
+
+        private void viewProductsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+              
+         
+        }
+
+        private void exitToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
             this.Close();
+        }
+
+        private void deleteProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

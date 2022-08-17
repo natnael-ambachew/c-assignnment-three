@@ -33,6 +33,7 @@
             this.addProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +53,8 @@
             this.productsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addProductToolStripMenuItem,
             this.deleteProductToolStripMenuItem,
-            this.exitToolStripMenuItem});
+            this.exitToolStripMenuItem,
+            this.exitToolStripMenuItem2});
             this.productsToolStripMenuItem.Name = "productsToolStripMenuItem";
             this.productsToolStripMenuItem.Size = new System.Drawing.Size(99, 29);
             this.productsToolStripMenuItem.Text = "products";
@@ -69,13 +71,21 @@
             this.deleteProductToolStripMenuItem.Name = "deleteProductToolStripMenuItem";
             this.deleteProductToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.deleteProductToolStripMenuItem.Text = "delete product";
+            this.deleteProductToolStripMenuItem.Click += new System.EventHandler(this.deleteProductToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.exitToolStripMenuItem.Text = "exit";
+            this.exitToolStripMenuItem.Text = "view product";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem2
+            // 
+            this.exitToolStripMenuItem2.Name = "exitToolStripMenuItem2";
+            this.exitToolStripMenuItem2.Size = new System.Drawing.Size(270, 34);
+            this.exitToolStripMenuItem2.Text = "exit";
+            this.exitToolStripMenuItem2.Click += new System.EventHandler(this.exitToolStripMenuItem2_Click);
             // 
             // main_container
             // 
@@ -101,5 +111,6 @@
         private ToolStripMenuItem addProductToolStripMenuItem;
         private ToolStripMenuItem deleteProductToolStripMenuItem;
         private ToolStripMenuItem exitToolStripMenuItem;
+        private ToolStripMenuItem exitToolStripMenuItem2;
     }
 }

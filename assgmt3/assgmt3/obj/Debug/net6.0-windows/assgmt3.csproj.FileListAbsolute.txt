@@ -34,3 +34,5 @@ C:\Users\hp\Desktop\s\c#\c-assignnment-three\assgmt3\assgmt3\obj\Debug\net6.0-wi
 C:\Users\hp\Desktop\s\c#\c-assignnment-three\assgmt3\assgmt3\obj\Debug\net6.0-windows\ref\assgmt3.dll
 C:\Users\hp\Desktop\s\c#\c-assignnment-three\assgmt3\assgmt3\obj\Debug\net6.0-windows\assgmt3.Form2.resources
 C:\Users\hp\Desktop\s\c#\c-assignnment-three\assgmt3\assgmt3\obj\Debug\net6.0-windows\assgmt3.main_container.resources
+C:\Users\hp\Desktop\s\c#\c-assignnment-three\assgmt3\assgmt3\obj\Debug\net6.0-windows\assgmt3.UserControl1.resources
+C:\Users\hp\Desktop\s\c#\c-assignnment-three\assgmt3\assgmt3\obj\Debug\net6.0-windows\assgmt3.form9.resources

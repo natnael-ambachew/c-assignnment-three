@@ -7,8 +7,14 @@
     <Compile Update="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="main container.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControl1.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 </Project>
